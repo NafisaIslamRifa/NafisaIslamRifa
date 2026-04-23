@@ -54,6 +54,24 @@ https://ieeexplore.ieee.org/document/11022356
 
 ## 💻 Projects
 
+## 🚀 Projects
+
+### 🧠 Build Large Language Model from Scratch (2025)
+- Developed a GPT-like Large Language Model (LLM) from scratch to understand core transformer components.
+- Implemented key modules including tokenization, embeddings, positional encoding, and multi-head self-attention.
+- Followed and extended concepts from the book *"Build a Large Language Model (From Scratch)"* by Sebastian Raschka.
+- Built end-to-end training and inference pipeline to explore how modern LLMs function internally.
+
+---
+
+### 🖼️ Build Multimodal Vision-Language Model from Scratch (2025)
+- Implemented a multimodal Vision-Language Model (VLM) inspired by PaliGemma architecture.
+- Integrated a **SigLIP Vision Transformer encoder** with **GemmaForCausalLM** for image-text understanding.
+- Designed a custom `PaliGemmaForConditionalGeneration` model with a projection layer to align visual and textual embeddings.
+- Focused on cross-modal representation learning and efficient visual-to-text generation.
+
+---
+
 ### Electricity Demand Prediction in Bangladesh
 - Time series forecasting using historical electricity demand data  
 - Built dataset from PGCB sources  
