@@ -45,11 +45,13 @@ https://ieeexplore.ieee.org/document/11022356
 **Visual Grounding and Explainability for Prompt-Driven Radiology Report Generation**  
 MICAD 2026  
 Accepted for publication and presentation
+https://drive.google.com/file/d/1IQNNWdiXM0mmZVe9uwBSnbmuaUKDNe4s/view 
 
 
 **Video Moment Retrieval: A Survey of Methods, Benchmarks, and Open Challenges in the Multimodal LLM Era**  
 Computer Vision and Image Understanding (Elsevier)  
 Under Review
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442027 
 
 ---
 
