@@ -5,7 +5,7 @@
   <img src="https://komarev.com/ghpvc/?username=NafisaIslamRifa&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
 # Nafisa Islam Rifa,
-MSc Data Science | AI Researcher | PhD Applicant
+MSc Data Science | AI Engineer | PhD Applicant
 
 📍 United Kingdom  
 📧 nafisaislamrifa@gmail.com  
@@ -66,7 +66,7 @@ URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442027
 
 ## 💻 Projects
 
-## 🚀 Projects
+
 
 ### 🧠 Build Large Language Model from Scratch (2025)
 - Developed a GPT-like Large Language Model (LLM) from scratch to understand core transformer components.
