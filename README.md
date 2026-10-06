@@ -55,16 +55,6 @@ URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442027
 
 ---
 
-## 🔬 Research Experience
-
-### Undergraduate Researcher — Multimodal Emotion Recognition
-- Worked on multimodal fusion of visual and thermal images  
-- Performed dataset preprocessing and model experimentation  
-- Evaluated deep learning model performance  
-- Paper accepted in IEEE ICCIT 2024  
-
----
-
 ## 💻 Projects
 
 ### 🏠 UKNest: Agentic RAG Assistant for UK Newcomers (2026)
