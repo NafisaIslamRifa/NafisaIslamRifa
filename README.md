@@ -4,7 +4,7 @@
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=NafisaIslamRifa&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
-# Nafisa Islam Rifa,
+# Nafisa Islam Rifa
 MSc Data Science | AI Engineer | PhD Applicant
 
 📍 United Kingdom  
@@ -20,6 +20,7 @@ MSc Data Science | AI Engineer | PhD Applicant
 - Natural Language Processing  
 - Machine Learning & Deep Learning  
 - Explainable AI in Healthcare  
+- Agentic AI, Retrieval-Augmented Generation (RAG) & LLM Evaluation  
 
 ---
 
@@ -66,7 +67,40 @@ URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442027
 
 ## 💻 Projects
 
+### 🏠 UKNest: Agentic RAG Assistant for UK Newcomers (2026)
+🔗 https://github.com/NafisaIslamRifa/uk-newcomer-assistant  
 
+An AI assistant for people who have recently moved to the UK. It answers questions on right to work, eVisas and share codes, renting and deposits, council tax and NHS access, **using only official GOV.UK guidance**, and cites the page and last-updated date in every answer.
+
+**Key Features**
+- RAG over 15 GOV.UK guides with section-aware chunking, BGE embeddings and a **Qdrant** vector database
+- **Model Context Protocol (MCP)** tool server with GOV.UK search, postcode lookup (postcodes.io) and nearby services (OpenStreetMap)
+- LLM agent that chooses and combines tools, with **guardrails in code**: cited links are checked against tool results, and personal visa questions get general guidance plus an adviser referral rather than a yes/no
+- Provider-agnostic LLM layer (OpenAI-compatible, Anthropic, Gemini); the live demo runs gpt-oss-120b on Groq
+- Evaluation: Recall@5 and MRR of 1.00 on direct questions; tool-selection and citation accuracy of 1.00 in end-to-end agent tests
+- Docker Compose deployment, GitHub Actions CI with offline unit tests, public Streamlit demo
+
+**Tech Stack**  
+Python • MCP • Qdrant • fastembed • Groq / OpenAI-compatible LLMs • Streamlit • Docker • GitHub Actions  
+
+---
+
+### 🚇 Agentic RAG-Powered London Tube Assistant (2026)
+🔗 https://github.com/NafisaIslamRifa/Agentic-RAG-for-London-Tube-Assistant  
+🎥 Demo: https://www.youtube.com/watch?v=m0-3QXqZvxA  
+
+An intelligent London Tube assistant that combines RAG over official TfL documents, agentic routing and live Transport for London APIs to answer both static and real-time travel questions.
+
+**Key Features**
+- Semantic retrieval with sentence-transformer embeddings, **ChromaDB** and cross-encoder reranking
+- Local **Llama 3.2** (Ollama) for grounded answers
+- Agentic routing between RAG, live TfL APIs (line status, fares, arrivals) and Tube map retrieval
+- Interactive Streamlit app
+
+**Tech Stack**  
+Python • LangChain • ChromaDB • Sentence-Transformers • Ollama • TfL Unified API • Streamlit  
+
+---
 
 ### 🧠 Build Large Language Model from Scratch (2025)
 - Developed a GPT-like Large Language Model (LLM) from scratch to understand core transformer components.
@@ -87,10 +121,6 @@ URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7442027
 ### Electricity Demand Prediction in Bangladesh
 - Time series forecasting using historical electricity demand data  
 - Built dataset from PGCB sources  
-
-### Network Intrusion Detection
-- Implemented lightweight deep learning models  
-- Improved detection speed and reduced computational cost  
 
 ---
 
@@ -129,10 +159,12 @@ Python • Machine Learning • Web Development • Database
 ## 🛠 Technical Skills
 
 **Programming:** Python, SQL, PHP, JavaScript  
-**Machine Learning:** Scikit-learn, Deep Learning, Data Mining  
+**Machine Learning:** PyTorch, TensorFlow, Scikit-learn, Deep Learning, Data Mining  
+**Generative AI & LLMs:** RAG, Agentic AI, MCP, LangChain, LangGraph, Hugging Face Transformers, LoRA/QLoRA  
+**Retrieval:** Embeddings, Vector Search, Reranking, Qdrant, ChromaDB  
 **Data Science:** Data Analysis, Data Visualization  
 **Database:** MySQL  
-**Other:** Web Development  
+**Engineering:** Docker, GitHub Actions (CI), Streamlit, Git, Web Development  
 
 ---
 
@@ -149,6 +181,6 @@ Best Technical Presentation Award — IEEE ICCIT 2024
 ## 🔗 Connect With Me
 Google Scholar: https://scholar.google.co.uk/citations?user=WGKC7egAAAAJ  
 GitHub: https://github.com/NafisaIslamRifa  
-LinkedIn: https://linkedin.com  
+LinkedIn: https://www.linkedin.com/in/nafisa-islam-rifa-71212b246/  
 
 ---
