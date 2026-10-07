@@ -76,8 +76,8 @@ Python • MCP • Qdrant • fastembed • Groq / OpenAI-compatible LLMs • St
 ---
 
 ### 🚇 Agentic RAG-Powered London Tube Assistant (2026)
-🔗 https://github.com/NafisaIslamRifa/Agentic-RAG-for-London-Tube-Assistant  
-🎥 Demo: https://www.youtube.com/watch?v=m0-3QXqZvxA  
+🔗 https://github.com/NafisaIslamRifa/london-tube-assistant 
+🎥 Demo: https://london-tube-assistant.streamlit.app/  
 
 An intelligent London Tube assistant that combines RAG over official TfL documents, agentic routing and live Transport for London APIs to answer both static and real-time travel questions.
 
